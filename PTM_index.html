@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PTM Booking</title>
-	<link rel="stylesheet" type="text/css" href="PTM_index.css">
+	<title>RANDOMATE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
 		<div class="main">
 			<div class="logo">
-				<h1>PTM_Booking</h1>
+				<h1>Randomate</h1>
 			</div>
 			<ul>
-				<li class="active"><a href="#">Log In</a></li>
-				<li><a href="#">Sign Up</a></li>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Motivations</a></li>
 			</ul>
 		</div>
 		<div class="title">
-			<img src="DunmanHighSchoolCrest.png">
+			<img src="logo.PNG">
 		</div>
-		<p>PTM is coming up <br> Book your slots today! </p>
-		<ul>
-			<li><a href="#">Book Now</a></li>
-		</ul>
+		<div class ="form">
+			<form action ="/action_page.php" method="get" id="form1">
+				Enter Motivation : <br />
+				<textarea rows = "5" cols = "50" name = "Motviation">
+				</textarea>
+				<button type="submit" form = "form1" value="Submit">Submit</button>
+			</form>
+		</div>
 	</header>
 </body>
 </html>
